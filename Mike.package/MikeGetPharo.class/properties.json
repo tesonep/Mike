@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MikeShellCommand",
+	"category" : "Mike",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"getString"
+	],
+	"name" : "MikeGetPharo",
+	"type" : "normal"
+}

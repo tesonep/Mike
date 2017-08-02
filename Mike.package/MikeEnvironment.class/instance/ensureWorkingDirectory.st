@@ -1,0 +1,4 @@
+actions
+ensureWorkingDirectory
+	
+	self workingDirectoryReference ensureCreateDirectory

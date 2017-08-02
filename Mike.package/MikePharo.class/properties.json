@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "MikeShellCommand",
+	"category" : "Mike",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"vmPath",
+		"imagePath",
+		"arguments"
+	],
+	"name" : "MikePharo",
+	"type" : "normal"
+}

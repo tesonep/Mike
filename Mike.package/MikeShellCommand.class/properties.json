@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MikeStep",
+	"category" : "Mike",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MikeShellCommand",
+	"type" : "normal"
+}

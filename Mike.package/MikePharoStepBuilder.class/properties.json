@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Mike",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mike",
+		"vmPath",
+		"imagePath"
+	],
+	"name" : "MikePharoStepBuilder",
+	"type" : "normal"
+}
