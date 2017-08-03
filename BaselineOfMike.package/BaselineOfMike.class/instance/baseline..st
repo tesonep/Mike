@@ -24,7 +24,7 @@ baseline: spec
 			package: 'Mike'
 			with: [ spec requires: #('ProcessWrapper') ] ];
 		
-		package: 'Mike-Test' with: [ spec requires: #('core') ];
+		package: 'Mike-Tests' with: [ spec requires: #('core') ];
 
 		group: 'core' with: #('Mike');
 		group: 'test' with: #('Mike-Tests');
