@@ -12,18 +12,8 @@ baseline: spec
 			versionString: #stable;
 			repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main' ];
 
+		package: 'Mike' with: [ spec requires: #('Mike-Compatibility' 'OSProcess') ];		
 		package: 'Mike-Compatibility';
-
-		for: #MacOS do: [ spec
-			package: 'Mike'
-			with: [ spec requires: #('Mike-Compatibility' 'OSProcess') ] ];
-		for: #Unix do: [ spec
-			package: 'Mike'
-			with: [ spec requires: #('Mike-Compatibility' 'OSProcess' ) ] ];
-		for: #Windows do: [ spec
-			package: 'Mike'
-			with: [ spec requires: #('ProcessWrapper') ] ];
-		
 		package: 'Mike-Tests' with: [ spec requires: #('core') ];
 
 		group: 'core' with: #('Mike');
