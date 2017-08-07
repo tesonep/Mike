@@ -1,0 +1,2 @@
+logging
+logProcessComplete: aProcess
