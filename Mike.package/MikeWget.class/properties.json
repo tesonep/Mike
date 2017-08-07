@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "MikeShellCommand",
-	"category" : "Mike",
+	"category" : "Mike-Steps",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

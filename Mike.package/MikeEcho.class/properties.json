@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Mike",
+	"super" : "MikeStep",
+	"category" : "Mike-Steps",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"workingDirectory",
-		"logger"
+		"text"
 	],
-	"name" : "MikeEnvironment",
+	"name" : "MikeEcho",
 	"type" : "normal"
 }

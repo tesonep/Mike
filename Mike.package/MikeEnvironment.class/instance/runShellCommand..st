@@ -20,10 +20,10 @@ runShellCommand: aCommand
 	process value.
 	
 	[ 500 milliSeconds wait.
-		Transcript nextPutAll: errorPipeline upToEnd.
-		Transcript nextPutAll: process pipeFromOutput upToEnd.
-		Transcript flush.
+		logger logOutput: process pipeFromOutput error: errorPipeline  
 	 ] doWhileFalse: [ process isComplete ].
+	
+	logger logProcessComplete: process.
 	
 	process succeeded
 		ifFalse: [ self error: 'Error executing: ' , process asString ]

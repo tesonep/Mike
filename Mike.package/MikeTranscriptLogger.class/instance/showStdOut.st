@@ -1,0 +1,3 @@
+accessing
+showStdOut
+	stdoutEnabled := true

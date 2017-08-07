@@ -1,0 +1,3 @@
+logging
+newLine
+	Transcript cr

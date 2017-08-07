@@ -1,0 +1,3 @@
+logging
+logMikeStarted: aMike 
+	

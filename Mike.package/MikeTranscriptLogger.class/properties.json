@@ -6,9 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"workingDirectory",
-		"logger"
+		"stdoutEnabled"
 	],
-	"name" : "MikeEnvironment",
+	"name" : "MikeTranscriptLogger",
 	"type" : "normal"
 }

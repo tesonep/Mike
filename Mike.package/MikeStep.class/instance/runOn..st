@@ -1,6 +1,6 @@
 running
 runOn: aMikeEnvironment
 
-	aMikeEnvironment logStep: self.
+	aMikeEnvironment logger logStepStarted: self.
 	self executeOn: aMikeEnvironment.
-	aMikeEnvironment log: 'Done'
+	aMikeEnvironment logger logStepCompleted: self
