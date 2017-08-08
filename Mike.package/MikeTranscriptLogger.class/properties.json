@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"stdoutEnabled"
+		"stdoutEnabled",
+		"stepStartTime",
+		"mikeStartTime"
 	],
 	"name" : "MikeTranscriptLogger",
 	"type" : "normal"
