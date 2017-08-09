@@ -1,9 +1,7 @@
 actions
-runShellCommand: aCommand
-	
+runShellCommand: aCommand	
 	| process errorPipeline |
-	self ensureWorkingDirectory.
-	
+		
 	errorPipeline := InternalPipe nonBlockingPipe.
 	process := PipeableOSProcess commandNoEvaluate: aCommand
 		environment: nil

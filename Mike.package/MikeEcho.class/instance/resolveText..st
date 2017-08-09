@@ -1,0 +1,3 @@
+resolving
+resolveText:env
+	^ text

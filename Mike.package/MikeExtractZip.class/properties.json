@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MikeStep",
+	"category" : "Mike-Steps",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"zipFilename",
+		"targetDirectory"
+	],
+	"name" : "MikeExtractZip",
+	"type" : "normal"
+}

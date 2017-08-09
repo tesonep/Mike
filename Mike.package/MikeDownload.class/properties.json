@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MikeStep",
+	"category" : "Mike-Steps",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"url"
+	],
+	"name" : "MikeDownload",
+	"type" : "normal"
+}
