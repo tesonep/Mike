@@ -6,6 +6,6 @@ testDownloadImageAndExtract
 	mike runOn: env.
 	
 	self assertExistsFile: 'pharo.zip'.
-	self assertExistsFile: 'Pharo.image'.
-	self assertExistsFile: 'Pharo.changes'.
+	self assertExistsFilesMatching: 'Pharo-*.image'.
+	self assertExistsFilesMatching: 'Pharo-*.changes'.
 	

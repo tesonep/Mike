@@ -1,3 +1,3 @@
 accessing
 description
-	^ 'echo ' , self resolveText
+	^ 'echo ' , self text
