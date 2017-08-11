@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MikeStep",
+	"category" : "Mike-Steps",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"expression"
+	],
+	"name" : "MikeDefineName",
+	"type" : "normal"
+}
