@@ -1,4 +1,4 @@
 running
 command
 
-	^ 'unzip {file}' format: { 'file' -> filePathString } asDictionary
+	^ MikeExpandedString string:'unzip {file}' values: { 'file' -> filePath}

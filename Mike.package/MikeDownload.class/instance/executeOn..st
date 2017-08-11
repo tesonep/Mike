@@ -4,7 +4,7 @@ executeOn: env
 	downloadedFile := self resolvedFileName: env.
 
 	ZnClient new
-		url: url;
+		url: (url resolveOnMike: env);
 		signalProgress: true;
 		downloadTo: downloadedFile.
 		

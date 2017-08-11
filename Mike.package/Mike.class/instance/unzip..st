@@ -1,4 +1,4 @@
 steps
 unzip: aString 
 	
-	self step: (MikeUnzip filePathString: aString)
+	self step: (MikeUnzip filePath: aString)

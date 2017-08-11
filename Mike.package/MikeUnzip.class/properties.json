@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"filePathString"
+		"filePath"
 	],
 	"name" : "MikeUnzip",
 	"type" : "normal"

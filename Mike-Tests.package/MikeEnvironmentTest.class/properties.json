@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractMikeTest",
+	"category" : "Mike-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MikeEnvironmentTest",
+	"type" : "normal"
+}

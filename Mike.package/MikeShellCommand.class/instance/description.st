@@ -1,4 +1,4 @@
 logging
 description
 	
-	^ self command
+	^ self command printString

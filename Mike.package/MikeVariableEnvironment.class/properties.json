@@ -1,14 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "MikeVariableEnvironment",
+	"super" : "Object",
 	"category" : "Mike",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"workingDirectory",
-		"logger"
+		"localValues",
+		"parent"
 	],
-	"name" : "MikeEnvironment",
+	"name" : "MikeVariableEnvironment",
 	"type" : "normal"
 }

@@ -1,4 +1,5 @@
 accessing
 command
-
-	^ 'wget -O - get.pharo.org/{getString} | bash' format: { 'getString' -> getString } asDictionary
+	^ MikeExpandedString
+		string: 'wget -O - get.pharo.org/{getString} | bash'
+		values: {('getString' -> getString)}

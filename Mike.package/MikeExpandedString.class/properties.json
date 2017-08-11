@@ -1,13 +1,12 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "MikeVariableEnvironment",
 	"category" : "Mike",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"string",
-		"formatDictionary"
+		"string"
 	],
 	"name" : "MikeExpandedString",
 	"type" : "normal"

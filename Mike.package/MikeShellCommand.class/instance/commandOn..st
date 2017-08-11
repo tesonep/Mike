@@ -1,4 +1,4 @@
 accessing
-commandOn: aMike
+commandOn: aMikeEnvironment
 	
-	^ self command
+	^ self command resolveOnMike: aMikeEnvironment

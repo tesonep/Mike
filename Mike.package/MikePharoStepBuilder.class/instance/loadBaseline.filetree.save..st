@@ -9,7 +9,7 @@ loadBaseline: aString filetree: aMikePath save: shouldSave
 				repository: ''filetree://{path}'';
 				load.
 			] on: Warning do: #resume"'
-				format:
+				values:
 					{('baseline' -> aString).
 					('path' -> aMikePath)})
 		save: shouldSave

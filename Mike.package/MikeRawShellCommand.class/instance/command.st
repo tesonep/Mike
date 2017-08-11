@@ -1,3 +1,3 @@
 accessing
 command
-	^ command
+	^ command asMikeExpandedString

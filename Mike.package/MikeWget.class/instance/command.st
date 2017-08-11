@@ -1,4 +1,4 @@
 running
 command
 
-	^ 'wget {url}' format: { 'url' -> url } asDictionary
+	^ MikeExpandedString string:'wget {url}' values: { 'url' -> url }
