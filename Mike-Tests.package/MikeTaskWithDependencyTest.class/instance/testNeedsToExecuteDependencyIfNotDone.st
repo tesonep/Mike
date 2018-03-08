@@ -1,0 +1,4 @@
+tests-needsExecution
+testNeedsToExecuteDependencyIfNotDone
+
+	self assert: dependency needsToExecute.

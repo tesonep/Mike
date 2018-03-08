@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MikeRule",
+	"category" : "Mike-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MikeMockRule",
+	"type" : "normal"
+}

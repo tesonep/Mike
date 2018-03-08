@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Mike-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"accumulator",
+		"rule",
+		"taskWithNotEnoughArguments",
+		"taskWithEnoughArguments",
+		"anotherTaskWithEnoughArguments",
+		"taskWithMoreArguments"
+	],
+	"name" : "MikeTaskWithArguments",
+	"type" : "normal"
+}

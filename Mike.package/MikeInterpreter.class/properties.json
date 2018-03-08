@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Mike-Tasks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"receiver",
+		"arguments",
+		"runner",
+		"shouldReturn",
+		"returnValue"
+	],
+	"name" : "MikeInterpreter",
+	"type" : "normal"
+}

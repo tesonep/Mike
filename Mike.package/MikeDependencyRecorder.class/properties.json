@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Mike-Tasks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"task",
+		"runner"
+	],
+	"name" : "MikeDependencyRecorder",
+	"type" : "normal"
+}

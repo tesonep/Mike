@@ -1,0 +1,4 @@
+helpers
+dependencyCount
+
+	^ dslMock dependencyCount

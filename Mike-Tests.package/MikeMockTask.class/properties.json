@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MikeTask",
+	"category" : "Mike-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"invalidated"
+	],
+	"name" : "MikeMockTask",
+	"type" : "normal"
+}

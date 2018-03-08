@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MikeRunner",
+	"category" : "Mike-Tasks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mikeDescription"
+	],
+	"name" : "MikeDSL",
+	"type" : "normal"
+}

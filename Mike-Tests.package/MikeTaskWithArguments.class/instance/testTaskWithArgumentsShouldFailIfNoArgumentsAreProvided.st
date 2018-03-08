@@ -1,0 +1,4 @@
+test-needsToExecute
+testTaskWithArgumentsShouldFailIfNoArgumentsAreProvided
+
+	self should: [taskWithNotEnoughArguments execute] raise: MikeInvalidArgumentsException

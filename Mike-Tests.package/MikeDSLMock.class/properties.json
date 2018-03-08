@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Mike-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"count",
+		"dependencyCount"
+	],
+	"name" : "MikeDSLMock",
+	"type" : "normal"
+}

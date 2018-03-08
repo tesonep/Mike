@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Mike-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"build",
+		"count",
+		"dependencyCount"
+	],
+	"name" : "MikeRunnerTest",
+	"type" : "normal"
+}

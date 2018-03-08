@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "GuillermoPolito 11/23/2017 11:52",
+	"super" : "MikeResult",
+	"category" : "Mike-Tasks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"object",
+		"modificationTime"
+	],
+	"name" : "MikeObjectResult",
+	"type" : "normal"
+}

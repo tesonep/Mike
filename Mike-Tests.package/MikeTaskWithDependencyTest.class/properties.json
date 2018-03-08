@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Mike-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"task",
+		"count",
+		"dependencyCount",
+		"dependency"
+	],
+	"name" : "MikeTaskWithDependencyTest",
+	"type" : "normal"
+}

@@ -1,0 +1,4 @@
+converting
+asMikeRule
+
+	^ self

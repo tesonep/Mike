@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Mike-Tasks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tasks",
+		"runner",
+		"name",
+		"evaluable"
+	],
+	"name" : "MikeRule",
+	"type" : "normal"
+}

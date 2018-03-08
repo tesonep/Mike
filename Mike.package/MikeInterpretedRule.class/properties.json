@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MikeRule",
+	"category" : "Mike-Tasks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"receiver",
+		"selector"
+	],
+	"name" : "MikeInterpretedRule",
+	"type" : "normal"
+}
