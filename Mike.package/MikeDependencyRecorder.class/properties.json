@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"task",
-		"runner"
+		"runner",
+		"executedTask"
 	],
 	"name" : "MikeDependencyRecorder",
 	"type" : "normal"

@@ -1,4 +1,4 @@
-testing
+accessing
 modificationTime
 
 	^ file modificationTime

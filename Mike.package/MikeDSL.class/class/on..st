@@ -1,6 +1,7 @@
 instance creation
-on: aMikeDescription
-	
-	^ self new
-		mikeDescription: aMikeDescription;
-		yourself
+on: anObject
+
+	| dsl |
+	dsl := self new.
+	dsl initializeOnObject: anObject.
+	^ dsl

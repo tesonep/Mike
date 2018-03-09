@@ -9,7 +9,8 @@
 		"build",
 		"count",
 		"dependencyCount",
-		"dslMock"
+		"dslMock",
+		"runner"
 	],
 	"name" : "MikeDSLTest",
 	"type" : "normal"

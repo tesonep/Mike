@@ -7,9 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"tasks",
-		"runner",
 		"name",
-		"evaluable"
+		"evaluable",
+		"runner"
 	],
 	"name" : "MikeRule",
 	"type" : "normal"

@@ -6,11 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"receiver",
-		"arguments",
 		"runner",
+		"receiver",
+		"methodAST",
 		"shouldReturn",
-		"returnValue"
+		"returnValue",
+		"temps"
 	],
 	"name" : "MikeInterpreter",
 	"type" : "normal"

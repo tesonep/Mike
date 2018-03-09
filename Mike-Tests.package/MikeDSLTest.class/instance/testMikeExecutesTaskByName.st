@@ -1,5 +1,5 @@
 tests
 testMikeExecutesTaskByName
 
-	build executeTask: #main.
+	build main.
 	self assert: self count equals: 1

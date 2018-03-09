@@ -1,12 +1,12 @@
 {
 	"commentStamp" : "",
-	"super" : "MikeRunner",
-	"category" : "Mike-Tasks",
+	"super" : "Object",
+	"category" : "Mike-DSL",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"mikeDescription"
+		"runner"
 	],
 	"name" : "MikeDSL",
 	"type" : "normal"

@@ -1,4 +1,4 @@
 interpreting
-interpret: methodAST
+interpret
 	
 	^ methodAST acceptVisitor: self

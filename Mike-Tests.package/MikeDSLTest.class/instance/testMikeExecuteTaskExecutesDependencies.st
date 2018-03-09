@@ -1,5 +1,5 @@
 tests
 testMikeExecuteTaskExecutesDependencies
 
-	build executeTask: #main.
+	build main.
 	self assert: self dependencyCount equals: 1

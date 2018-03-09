@@ -3,6 +3,6 @@ doExecuteTask: aMikeTask onRunner: aMikeRunner
 	
 	^ MikeInterpreter new
 		receiver: receiver;
-		arguments: aMikeTask arguments;
-		runner: aMikeRunner;
-		interpret: self lookupMethodAST.
+		runner: (MikeDependencyRecorder on: aMikeTask runner: aMikeRunner);
+		pushMethodContextFor: self lookupMethodAST withArguments: aMikeTask arguments;
+		interpret.

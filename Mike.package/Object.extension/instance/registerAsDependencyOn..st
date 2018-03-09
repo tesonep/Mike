@@ -1,0 +1,4 @@
+*Mike
+registerAsDependencyOn: aMikeTask 
+	
+	^ self

@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	tasks := Dictionary new
+	runner := MikeRunner new.

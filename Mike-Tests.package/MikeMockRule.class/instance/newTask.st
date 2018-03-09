@@ -1,4 +1,4 @@
-executing
+tasks
 newTask
 	
 	^ MikeMockTask rule: self

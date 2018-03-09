@@ -1,7 +1,7 @@
 tests
 testMikeExecuteTaskWithDifferentArgumentCreatesAsManyTasks
 
-	build executeTask: #mainWithArg: withArguments: {1}.
-	build executeTask: #mainWithArg: withArguments: {2}.
+	build mainWithArg: 1.
+	build mainWithArg: 2.
 	
-	self assert: (build ruleNamed: #mainWithArg:) tasks size equals: 2
+	self assert: (runner ruleNamed: #mainWithArg:) tasks size equals: 2

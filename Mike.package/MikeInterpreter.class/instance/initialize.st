@@ -2,4 +2,5 @@ initialization
 initialize
 
 	super initialize.
-	shouldReturn := false
+	shouldReturn := false.
+	temps := Dictionary new

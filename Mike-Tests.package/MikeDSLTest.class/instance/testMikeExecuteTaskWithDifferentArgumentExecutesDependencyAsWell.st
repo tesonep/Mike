@@ -1,6 +1,7 @@
 tests
 testMikeExecuteTaskWithDifferentArgumentExecutesDependencyAsWell
 
-	build executeTask: #mainWithArg: withArguments: {1}.
-	build executeTask: #mainWithArg: withArguments: {2}.
+	build mainWithArg: 1.
+	build mainWithArg: 2.
+
 	self assert: self dependencyCount equals: 2

@@ -1,11 +1,14 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Mike-Tasks",
+	"category" : "Mike-DSL",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "MikeBasicTaskRunner",
+	"instvars" : [
+		"interpreter",
+		"node"
+	],
+	"name" : "MikeBlock",
 	"type" : "normal"
 }
