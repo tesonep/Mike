@@ -1,4 +1,4 @@
-execution
+executing
 executeOn: aRunner
 	
 	self needsToExecute ifTrue: [ 

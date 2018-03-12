@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"file"
+		"file",
+		"fileEntry"
 	],
 	"name" : "MikeFileResult",
 	"type" : "normal"

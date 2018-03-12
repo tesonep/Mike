@@ -2,4 +2,4 @@ tests-needsExecution
 testNonExecutedTaskIsNewerThanExecutedTask
 
 	dependency execute.	
-	self assert: (task isNewerThan: dependency)
+	self assert: (task invalidatesResult: dependency)

@@ -1,4 +1,4 @@
 testing
-isNewerThan: aMikeTask 
+invalidatesResult: aMikeTask 
 	
 	self subclassResponsibility

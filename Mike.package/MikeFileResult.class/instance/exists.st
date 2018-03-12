@@ -1,0 +1,4 @@
+comparing
+exists
+
+	^ fileEntry ~= nil 

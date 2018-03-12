@@ -1,0 +1,3 @@
+comparing
+permissions
+	^ fileEntry posixPermissions
