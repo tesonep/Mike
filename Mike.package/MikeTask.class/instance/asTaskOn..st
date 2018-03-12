@@ -1,0 +1,4 @@
+converting
+asTaskOn: aMikeRunner 
+	
+	^ self

@@ -8,5 +8,5 @@ evaluateMessage: aRBMessageNode withReceiver: messageReceiver
 		result ] as: Array.
 	
 	^ aRBMessageNode isSelfSend
-		ifTrue: [ runner executeTask: aRBMessageNode selector withArguments: messageArguments ]
+		ifTrue: [ runner executeTask: (Message selector: aRBMessageNode selector arguments: messageArguments) ]
 		ifFalse: [ messageReceiver perform: aRBMessageNode selector withArguments: messageArguments ]

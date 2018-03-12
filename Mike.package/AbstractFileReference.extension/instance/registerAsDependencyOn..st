@@ -1,4 +1,4 @@
 *Mike
 registerAsDependencyOn: aMikeTask 
 	
-	aMikeTask addDependency: (MikeFileResult file: self)
+	aMikeTask addDependency: self asMikeResult

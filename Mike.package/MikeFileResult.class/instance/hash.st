@@ -1,4 +1,4 @@
 comparing
 hash
-
-	^ file hash
+	
+	^ self file hash

@@ -1,4 +1,5 @@
 executing
-executeTask: aTaskId
+executeTask: aTaskable
 	
-	^ self executeTask: aTaskId withArguments: #()
+	^ (aTaskable asTaskOn: self)
+		executeOn: self
