@@ -2,7 +2,7 @@ tests
 testExtractZipFile
  	| arch anStream|
 	'testEnvironment/' asFileReference ensureCreateDirectory.
-	anStream := 'testEnvironment/test.zip' asFileReference writeStream.
+	anStream := 'testEnvironment/test.zip' asFileReference binaryWriteStream.
 	
 	arch := ZipArchive new.
 	arch addString: 'test 1' as: 'test.txt'.
