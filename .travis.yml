@@ -10,8 +10,12 @@ addons:
       - libssl1.0.0:i386
       - libfreetype6:i386
 
+env:
+  - VERSION=61
+  - VERSION=70
+
 install: 
-  - wget -O - get.pharo.org/60+vm | bash
+  - wget -O - get.pharo.org/$VERSION+vm | bash
   - ./scripts/disable-deprecation-warning.sh 
   - ./scripts/install-packages.sh Mike mike
 
