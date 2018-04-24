@@ -1,27 +1,17 @@
 actions
-runShellCommand: aCommand	
-	| process errorPipeline |
+runShellCommand: aCommand
+	| process |
+	process := OSSUnixSubprocess new.
+	process
+		shellCommand: aCommand;
+		workingDirectory: self workingDirectoryReference fullName;
+		redirectStdout;
+		redirectStderr.
 		
-	errorPipeline := InternalPipe nonBlockingPipe.
-	process := PipeableOSProcess commandNoEvaluate: aCommand
-		environment: nil
-		workingDir: self workingDirectoryReference fullName
-		input: nil
-		output: nil
-		error: nil
-		errorPipelineStream: errorPipeline
-		shellSyntax: nil.
-	
-	"process pipeFromError setBufferedReader."
-	process prepareOutputForInternalReader.
+	process
+		runAndWaitPollingEvery: (Delay forMilliseconds: 500)
+		doing: [ :proc :stdout :stderr | logger logOutput: stdout error: stderr ]
+		onExitDo: [ :proc :stdout :stderr | logger logOutput: stdout error: stderr ].
 
-	process value.
-	
-	[ 500 milliSeconds wait.
-		logger logOutput: process pipeFromOutput error: errorPipeline  
-	 ] doWhileFalse: [ process isComplete ].
-	
-	logger logProcessComplete: process.
-	
-	process succeeded
+	process isSuccess
 		ifFalse: [ self error: 'Error executing: ' , process asString ]

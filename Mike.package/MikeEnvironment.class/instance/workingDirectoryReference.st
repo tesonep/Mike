@@ -1,4 +1,4 @@
 accessing
 workingDirectoryReference
 	
-	^ OSProcess thisOSProcess getCwd asFileReference / workingDirectory
+	^ OSSVMProcess vmProcess systemAccessor getcwd asFileReference / workingDirectory
