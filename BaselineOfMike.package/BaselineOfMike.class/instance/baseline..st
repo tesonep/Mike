@@ -4,15 +4,11 @@ baseline: spec
 	
 	spec for: #common do: [ 
 		spec
-		configuration: 'OSProcess' with: [ spec
+		configuration: 'OSSubprocess' with: [ spec
 			versionString: #stable;
-			repository: 'http://www.squeaksource.com/OSProcess' ];
+			repository: 'github://marianopeck/OSSubprocess:master/repository' ];
 
-		configuration: 'ProcessWrapper' with: [ spec
-			versionString: #stable;
-			repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main' ];
-
-		package: 'Mike' with: [ spec requires: #('Mike-Compatibility' 'OSProcess') ];		
+		package: 'Mike' with: [ spec requires: #('Mike-Compatibility' 'OSSubprocess') ];		
 		package: 'Mike-Compatibility';
 		package: 'Mike-Tests' with: [ spec requires: #('core') ];
 
